@@ -2,7 +2,7 @@
   "private": true,
   "name": "portfolio-new",
   "version": "0.1.0",
-  "homepage": "http://saikowshik007.github.io/portfolio-new",
+  "homepage": ".",
   "scripts": {
     "build": "react-scripts --openssl-legacy-provider build",
     "predeploy": "npm run build",
