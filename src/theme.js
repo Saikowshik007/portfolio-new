@@ -223,4 +223,4 @@ export const sai2 = {
   splashBg: "#1abc9c", // Teal for a refreshing splash background
 };
 
-export const chosenTheme = materialTealTheme;
+export const chosenTheme = materialLightTheme;

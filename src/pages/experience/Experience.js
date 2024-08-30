@@ -11,6 +11,8 @@ import ExperienceImg from "./ExperienceImg";
 class Experience extends Component {
   render() {
     const theme = this.props.theme;
+    const imageUri = experience.header_image_path;
+    console.log("Current theme:", imageUri);
     return (
       <div className="experience-main">
         <Header theme={theme} />
@@ -20,7 +22,8 @@ class Experience extends Component {
               <div className="experience-heading-img-div">
                 {
                   <img
-                    src={require(`../../assets/images/${experience["header_image_path"]}`)}
+                    src={require(`../../assets/images/` +
+                      experience.header_image_path)}
                     alt=""
                   />
                 }
