@@ -11,7 +11,7 @@ import ExperienceImg from "./ExperienceImg";
 class Experience extends Component {
   render() {
     const theme = this.props.theme;
-    const imageUri = experience.header_image_path;
+    const imageUri = "../../assets/images/" + experience.header_image_path;
     console.log("Current theme:", imageUri);
     return (
       <div className="experience-main">
@@ -20,13 +20,7 @@ class Experience extends Component {
           <Fade bottom duration={2000} distance="40px">
             <div className="experience-heading-div">
               <div className="experience-heading-img-div">
-                {
-                  <img
-                    src={require(`../../assets/images/` +
-                      experience.header_image_path)}
-                    alt=""
-                  />
-                }
+                {<img src={imageUri} alt="" />}
                 <ExperienceImg theme={theme} />
               </div>
               <div className="experience-heading-text-div">
