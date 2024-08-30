@@ -25,7 +25,7 @@ const greeting = {
   subTitle:
     "A dynamic and passionate innovator, always eager to tackle end-to-end projects that build sustainable and scalable social and technical systems, driving meaningful impact and positive change.",
   resumeLink:
-    "https://www.overleaf.com/download/project/6529fde8269efff05254778c/build/191a20bfdd8-60c07dd737a53ba8/output/output.pdf?compileGroup=standard&clsiserverid=clsi-pre-emp-n2d-c-f-2bdh&enable_pdf_caching=true&popupDownload=true",
+    "https://drive.google.com/file/d/1qOOg75bxtZolGlc4SPctWmKNncdfcgOU/view?usp=sharing",
   portfolio_repository: "https://github.com/Saikowshik007/portfolio-new",
   githubProfile: "https://github.com/Saikowshik007",
 };
