@@ -7,6 +7,7 @@ import "./Experience.css";
 import { experience } from "../../portfolio.js";
 import { Fade } from "react-reveal";
 import ExperienceImg from "./ExperienceImg";
+import Type from "../../containers/greeting/Type";
 
 class Experience extends Component {
   render() {
@@ -40,7 +41,9 @@ class Experience extends Component {
                   className="experience-header-detail-text subTitle"
                   style={{ color: theme.secondaryText }}
                 >
-                  {experience["description"]}
+                  <br />
+                  <Type theme={theme} string={experience.description} />
+                  <br />
                 </p>
               </div>
             </div>

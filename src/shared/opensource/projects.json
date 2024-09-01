@@ -66,7 +66,7 @@
     },
     {
       "id": "R_kgDOGpieXw",
-      "name": "Location based blood donor search App",
+      "name": "Blood donor search App",
       "createdAt": "2020-01-09T21:43:29Z",
       "url": "https://github.com/Saikowshik007/Blood_donar_search_app",
       "description": "The project aims to assist people in urgent need of blood by efficiently connecting them with local donors based on blood groups. Users register in the app, which stores and retrieves data from Firebase. The app periodically checks the user's current location to suggest nearby donors, using threads to prevent UI freezing. It incorporates regex for input validation and displays donor information in a list format using a RecyclerView.",

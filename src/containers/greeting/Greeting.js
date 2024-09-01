@@ -5,6 +5,7 @@ import Button from "../../components/button/Button";
 import { greeting } from "../../portfolio";
 import { Fade } from "react-reveal";
 import FeelingProud from "./FeelingProud";
+import Type from "./Type";
 
 export default function Greeting(props) {
   const theme = props.theme;
@@ -22,16 +23,19 @@ export default function Greeting(props) {
                   ( {greeting.nickname} )
                 </h2>
               )}
-              <p
-                className="greeting-text-p subTitle"
-                style={{ color: theme.secondaryText }}
-              >
-                {greeting.subTitle}
-              </p>
-              <SocialMedia theme={theme} />
+              {/*<p*/}
+              {/*  className="greeting-text-p subTitle"*/}
+              {/*  style={{ color: theme.secondaryText }}*/}
+              {/*>*/}
+              {/*  {greeting.subTitle}*/}
+              {/*</p>*/}
+              <br />
+              <Type theme={theme} string={greeting.runnerText} />
+              <br />
+              <SocialMedia />
               <div className="portfolio-repo-btn-div">
                 <Button
-                  text="⭐ Star Me On Github"
+                  text="⭐ Me On Github"
                   newTab={true}
                   href={greeting.portfolio_repository}
                   theme={theme}

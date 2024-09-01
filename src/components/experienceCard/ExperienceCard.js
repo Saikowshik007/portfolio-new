@@ -8,6 +8,9 @@ class ExperienceCard extends Component {
     const index = this.props.index;
     const totalCards = this.props.totalCards;
     const theme = this.props.theme;
+    const descriptions = Array.isArray(experience["description"])
+      ? experience["description"]
+      : [experience["description"]];
     return (
       <div
         className="experience-list-item"
@@ -105,8 +108,13 @@ class ExperienceCard extends Component {
                   marginTop: 20,
                 }}
               >
-                <div className="repo-description" />
-                {experience["description"]}
+                <div className="repo-description">
+                  <ul>
+                    {descriptions.map((desc, index) => (
+                      <li key={index}>{desc}</li>
+                    ))}
+                  </ul>
+                </div>
               </div>
             </div>
           </div>

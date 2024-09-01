@@ -223,4 +223,18 @@ export const sai2 = {
   splashBg: "#1abc9c", // Teal for a refreshing splash background
 };
 
-export const chosenTheme = materialTealTheme;
+export const google = {
+  body: "#ffffff", // Pure white for a clean, bright background
+  text: "#202124", // Very dark grey for high contrast text
+  expTxtColor: "#5f6368", // Lighter grey for secondary text
+  highlight: "#4285f4", // Google's blue for a vibrant highlight
+  dark: "#202124", // Same dark grey as text for depth
+  secondaryText: "#80868b",
+  imageHighlight: "#34a853",
+  compImgHighlight: "#e8eaed",
+  jacketColor: "#f1f3f4",
+  headerColor: "#202124",
+  splashBg: "#fbbc05",
+};
+
+export const chosenTheme = google;

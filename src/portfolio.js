@@ -2,7 +2,7 @@
 
 // Website related settings
 const settings = {
-  isSplash: false, // Change this to false if you don't want Splash screen.
+  isSplash: true, // Change this to false if you don't want Splash screen.
 };
 
 //SEO Related settings
@@ -22,8 +22,13 @@ const greeting = {
   title: "Sai Kowshik Ananthula",
   logo_name: "Sai Kowshik Ananthula",
   nickname: "Sai",
-  subTitle:
-    "A dynamic and passionate innovator, always eager to tackle end-to-end projects that build sustainable and scalable social and technical systems, driving meaningful impact and positive change.",
+  runnerText: [
+    "A dynamic and passionate innovator 🙋‍♂️",
+    "Senior Software Engineer @IBM 👨🏾‍💻",
+    "Master of Computer Science Graduate from GSU 👨‍🎓",
+    "Open Source Contributor 💻",
+    "Competitive Gamer 🎮",
+  ],
   resumeLink:
     "https://drive.google.com/file/d/1qOOg75bxtZolGlc4SPctWmKNncdfcgOU/view?usp=sharing",
   portfolio_repository: "https://github.com/Saikowshik007/portfolio-new",
@@ -375,8 +380,13 @@ const certifications = {
 const experience = {
   title: "Professional Experience",
   subtitle: "Full-time, Internship and Assistantship",
-  description:
-    "I have worked with many evolving startups as ML and DL Developer, Designer and Software Architect. I have also worked with some well established companies mostly as AI Developer. I love organising events and that is why I am also involved with many opensource communities as a representative.",
+  description: [
+    "Senior Software Engineer @IBM working on mobile and web apps.",
+    "Ex-Software Engineer @Global Payments, worked on Visa and Mastercard transaction pipelines.",
+    "Interned @Global Payments, optimized backend systems, leveraged AWS technologies to reduce costs.",
+    "Research and published in IEEE on Visible Light Communication as a research assist @GSU.",
+    "Taught Java,Python and, Programming language concepts @GSU.",
+  ],
   header_image_path: "experience.svg",
   sections: [
     {
@@ -390,8 +400,12 @@ const experience = {
           logo_path: "ibm.png",
           duration: "January 2024 - Present",
           location: "Austin, Texas, USA",
-          description:
-            "Upgraded Maas360vpn and optimized tunnel speed, implemented a push notification system with AWS IoT, Kafka, and Java Spring Boot, reduced status update load with Shared Subscription, and managed OCP environments to enhance security, performance, and reliability for global clients.",
+          description: [
+            "Upgraded Maas360vpn from 2.5.6 to 2.6.10, enhancing security for clients like NASA and Pfizer, and optimized tunnel speed by 20% on Android and iOS by adjusting MTU parameters.",
+            "Implemented Push Notification system using AWS IoT, Kafka, and Java Spring Boot, effectively updating online status on the AWS IoT and generating certificates, resulting in a 30% improvement in device verification efficiency.",
+            "Adopted Shared Subscription, reducing status updates load by 50%, optimizing performance and scalability.",
+            "Owned OCP dev and QA environments, overseeing all bug fixes, upgrades, and enhancements, improving system reliability by 40% for India and US teams.",
+          ],
           color: "#000000",
         },
         {
@@ -401,8 +415,13 @@ const experience = {
           logo_path: "global-payments.png",
           duration: "June 2020 - Aug 2021",
           location: "Columbus, Georgia",
-          description:
-            "Led the development of Java and Spring Boot applications, improving system efficiency by 50%, implemented RESTful web services for faster data processing, engineered a low-latency client transaction pipeline with modern tools, optimized backend connectivity with Spring JDBC and MyBatis, and enhanced deployment speed and resilience using AWS and CI/CD pipelines, reducing operational costs and increasing productivity.",
+          description: [
+            "Spearheaded the development of enterprise-level applications using Java and Spring Boot, resulting in a 50% increase in system efficiency. Successfully implemented RESTful web services, improving data processing speed by 30%.",
+            "Engineered a highly efficient, low latency client transaction pipeline system utilizing Airflow, Kubernetes, Kafka, an Docker; achieved 60% increase in batch-processing efficiency, leading to better productivity and faster transactions.",
+            "Developed POJOs and DAOs for 80+ database entities using Spring JDBC and MyBatis, optimizing backend connectivity and performance within a Controller-Service layered architecture.",
+            "Implemented CI/CD pipelines using Jenkins, which accelerated deployment cycles by 40% and improved code integration efficiency. Facilitated the deployment of applications on AWS, achieving a 20% less operational costs and a 30% increase in deployment speed.",
+            "Utilized AWS technologies (EC2, S3, Lambda) to enhance system resilience by 50% and reduce operational costs by 30%. Achieved a 40% faster deployment speed, showcasing proficiency in cloud-based solutions.",
+          ],
           color: "#0879bf",
         },
       ],
@@ -417,8 +436,11 @@ const experience = {
           logo_path: "global-payments.png",
           duration: "May 2022 - Aug 2022",
           location: "Atlanta, Georgia",
-          description:
-            "Developed and optimized the Correspondence API using Java and Spring, achieving a 40% reduction in account lookup time and improved system response, engineered REST APIs for external service integration, and built Spring components with comprehensive unit and integration tests, resulting in a 60% increase in system efficiency.",
+          description: [
+            "Developed POJOs and DAOs for 80+ database entities using Spring JDBC and MyBatis, optimizing backend connectivity and performance within a Controller-Service layered architecture.",
+            "Implemented CI/CD pipelines using Jenkins, which accelerated deployment cycles by 40% and improved code integration efficiency. Facilitated the deployment of applications on AWS, achieving a 20% less operational costs and a 30% increase in deployment speed.",
+            "Utilized AWS technologies (EC2, S3, Lambda) to enhance system resilience by 50% and reduce operational costs by 30%. Achieved a 40% faster deployment speed, showcasing proficiency in cloud-based solutions.",
+          ],
           color: "#000000",
         },
       ],
@@ -433,8 +455,10 @@ const experience = {
           logo_path: "gsu.png",
           duration: "January 2022 - May 2022",
           location: "Atlanta, Georgia",
-          description:
-            "Administered experiments for accident prevention between automobiles using Object Detection, Deep Learning, and IoT, reducing computational usage by 30%, developed an advanced algorithm for vehicle localization and collision detection, and published an IEEE paper on Visual Light Communication.",
+          description: [
+            "Conducted experiments to enhance scalable automobile safety using object detection and IoT sensors, resulting in a 30%  reduction in overall system power using Python, JavaScript, SQL, and Java",
+            "Innovated a collision detection algorithm that performed 80% more adeptly than current models and published an IEEE paper on visual light communication, generating 1.6 million in revenue for M.O.R.S.E studio development.",
+          ],
           color: "#000000",
         },
         {
@@ -444,8 +468,10 @@ const experience = {
           logo_path: "gsu.png",
           duration: "August 2021 - March 2023",
           location: "Atlanta, Georgia",
-          description:
-            "Monitored and assessed the performance of 120+ students in the Programming Languages Concepts course, enhanced learning through diverse teaching methods under Professor Chinua Umoja, improved student performance by 10%, and automated assignment grading with a Python script, reducing evaluation time by 20%.",
+          description: [
+            "Developed a Python script to automate assignment management, reducing evaluation time by 95% using REST API.",
+            "Enhanced student learning by conducting online and offline teaching sessions, and improved student’s performance by 10% from previous semester.",
+          ],
           color: "#0C9D58",
         },
       ],
