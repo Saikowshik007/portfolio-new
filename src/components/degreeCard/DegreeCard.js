@@ -30,7 +30,7 @@ class DegreeCard extends Component {
           >
             <div
               className="body-header"
-              style={{ backgroundColor: theme.headerColor }}
+              style={{ backgroundColor: theme.splashBg }}
             >
               <div className="body-header-title">
                 <h2 className="card-title" style={{ color: theme.text }}>
@@ -62,7 +62,7 @@ class DegreeCard extends Component {
                 >
                   <div
                     className="visit-btn"
-                    style={{ backgroundColor: theme.headerColor }}
+                    style={{ backgroundColor: theme.splashBg }}
                   >
                     <p className="btn" style={{ color: theme.text }}>
                       Visit Website
