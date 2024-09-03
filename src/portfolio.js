@@ -23,8 +23,8 @@ const greeting = {
   logo_name: "Sai Kowshik Ananthula",
   nickname: "Sai",
   runnerText: [
-    "A dynamic and passionate innovator 🙋‍♂️",
-    "Senior Software Engineer @IBM 👨🏾‍💻",
+    "A dynamic and passionate innovator 🙋",
+    "Senior Software Engineer @IBM 👨‍💻",
     "Master of Computer Science Graduate from GSU 👨‍🎓",
     "Open Source Contributor 💻",
     "Competitive Gamer 🎮",
